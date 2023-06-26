@@ -53,16 +53,16 @@ public class ControlFlowExercises {
             userWantsContinue = userAnswer.equals("yes");
         } while (userWantsContinue);
 
-        do {
-            System.out.println("Give me a number: ");
-            int userNum = scan.nextInt();
-            if(userNum >= 90) {
-            }
-            System.out.println("would you likr to enter another number");
-            scan.nextLine();
-            String userAnswer = scan.nextLine();
-            userWantsContinue = userAnswer.equals("yes");
-        } while (userWantsContinue);
+//        do {
+//            System.out.println("Give me a number: ");
+//            int userNum = scan.nextInt();
+//            if(userNum >= 90) {
+//            }
+//            System.out.println("would you likr to enter another number");
+//            scan.nextLine();
+//            String userAnswer = scan.nextLine();
+//            userWantsContinue = userAnswer.equals("yes");
+//        } while (userWantsContinue);
     }
 }
 
