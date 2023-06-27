@@ -32,6 +32,7 @@ public class ArraysExercises {
 
         public static Person[] addPerson(Person[] people, Person newPerson) {
             Person[] newPeople = new Person[people.length + 1];
+        //            instantiates a new array, and offers more control over
             System.arraycopy(people, 0, newPeople, 0, people.length);
             newPeople[newPeople.length - 1] = newPerson;
             return newPeople;
