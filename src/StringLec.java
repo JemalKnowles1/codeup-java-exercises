@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class StringLecture {
+public class StringLec {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 //        System.out.println("type abc");

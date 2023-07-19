@@ -47,7 +47,7 @@ public class ControlFlowExercises {
             for (int j = 1; j <= userNum; j++) {
                 System.out.printf("%-6d | %-7d | %d%n", j, j * j, j * j * j);
             }
-            System.out.println("would you likr to enter another number");
+            System.out.println("would you like to enter another number");
             scan.nextLine();
             String userAnswer = scan.nextLine();
             userWantsContinue = userAnswer.equals("yes");

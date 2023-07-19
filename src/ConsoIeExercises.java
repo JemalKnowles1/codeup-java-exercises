@@ -1,7 +1,6 @@
 import java.util.Scanner;
-import java.util.InputMismatchException;
 
-public class ConsoleIOE {
+public class ConsoIeExercises {
     public static void main(String[] args) {
         Scanner k = new Scanner(System.in);
 //        System.out.println("Enter an Integer: ");

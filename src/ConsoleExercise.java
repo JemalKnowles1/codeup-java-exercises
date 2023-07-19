@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-public class ConsoleIO {
+public class ConsoleExercise {
     public static void main(String[] args) {
 //        String name = "codeup";
 //        System.out.println(name);
